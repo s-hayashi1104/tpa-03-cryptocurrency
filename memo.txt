@@ -1,0 +1,11 @@
+■コンポーネント
+　・metrics
+    data: name => strings
+          value => number
+　・metric
+    data: name => strings
+          value => number
+　・chart
+
+
+

@@ -2,41 +2,24 @@
   <div id="app">
     <h1>Cryptocurrency Chart</h1>
     <p>[BTC] (JPY)</p>
-    <div class="metrics-container">
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-      <div class="metric-container">
-        <div class="metric-label">Metric Name</div>
-        <div class="metric-value">Metric Value</div>
-      </div>
-    </div>
+    <TheMatrics></TheMatrics>
     <div>TODO: Chart</div>
     <h5>TECH PLAY ACADEMY</h5>
   </div>
 </template>
 
 <script>
+import TheMatrics from './components/TheMatrics';
+import TheChart from './components/TheChart';
+
 export default {
   name: 'App',
+  components: {
+    TheMatrics,
+    TheChart,
+  },
 };
+
 </script>
 
 <style scoped>
